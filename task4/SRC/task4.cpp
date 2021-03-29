@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     std::string second_str;
     std::string answer = "OK";
     std::cin>>first_str>>second_str;
-    if((first_str.length() == second_str.length()) && answer == "OK")
+    if(first_str.length() == second_str.length())
     {
         for (size_t i = 0; i < first_str.length(); i++)
         {
